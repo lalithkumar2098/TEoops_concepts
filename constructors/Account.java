@@ -1,6 +1,27 @@
 package com.te.constructors;
 public class Account {
+	private double balance;
 	
+	public Account(double balance)
+	{
+		this.balance=balance;
+	}
+
+	public double getBalance() {
+		//if(only if shabhan asking)
+		{
+			
+		}
+		return this.balance;
+	}
+	
+	public void deposit(double amt)
+	{
+		this.balance+=amt;
+		System.out.println("Updated bal is: " + this.balance);
+	}
+	
+	/*
 	private String accountNumber;
 	private double balance;
 	private String customerName;
@@ -72,6 +93,6 @@ public class Account {
 	public void setCustomerPhoneNumber(String customerPhoneNumber) {
 		this.customerPhoneNumber = customerPhoneNumber;
 	}
-	
+	*/
 	
 }

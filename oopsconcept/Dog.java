@@ -34,6 +34,22 @@ public class Dog extends Animal{
 		super.move(25);
 	}
 	
+	public int getEyes() {
+		return eyes;
+	}
+
+	public int getLegs() {
+		return legs;
+	}
+
+	public int getTail() {
+		return tail;
+	}
+
+	public String getCoat() {
+		return coat;
+	}
+
 	public void move(int speed) {
 		System.out.println("Dog.move() called. dog moving at a speed of : "+speed);
 	}

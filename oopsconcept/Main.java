@@ -9,9 +9,9 @@ public class Main {
 		//rotwiler.eat();
 		rotwiler.walk();
 		rotwiler.run();
+		rotwiler.getEyes();
 		
 		Fish raghu=new Fish(null, 0, 0, 0, 0);
-
+		
 	}
-
 }

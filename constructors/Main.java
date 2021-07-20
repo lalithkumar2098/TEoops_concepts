@@ -4,7 +4,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	
+		Account shabanAccount = new Account(2000.00);
+		shabanAccount.getBalance();
+		
+	/*
 		Account shabanAccount = new Account();
 		shabanAccount.setAccountNumber("123457890");
 		shabanAccount.setBalance(1000.0);
@@ -23,7 +26,7 @@ public class Main {
 		pawanAccount.withdraw(3000.00);
 		pawanAccount.deposite(10000.00);
 
-		
+		*/
 
 	}
 
